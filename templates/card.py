@@ -3,8 +3,8 @@ import stripe
 
 app = Flask(__name__)
 
-pub_key = 'pk_test_gWvlF6J4hXLHJ4iUOIVoi8qz'
-secret_key = 'sk_test_RR8y0GTdOg15kfLVBC0FBvIy'
+pub_key = 'pk_test_XXXXXXXXXXXXXXXXXXXXXXXXXX'
+secret_key = 'sk_test_XXXXXXXXXXXXXXXXXXXXXXX'
 
 stripe.api_key = secret_key
 
